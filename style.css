@@ -1,0 +1,33 @@
+body {
+    background: #141516 linear-gradient(to right top, #141516, #141b20, #102228, #092a2e, #003132);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    color: white;
+    display: flex;
+    font-size: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header h1 {
+    font: 1em/1em Lemonada, cursive;
+    flex-grow: 1;
+    padding: 1rem;
+    margin: 0;
+}
+
+header a {
+    color: inherit;
+    display: block;
+    padding: 1rem;
+}
