@@ -20,9 +20,9 @@ function draw() {
         if(cell.value === null) {
             noFill();
         } else if(cell.value) {
-            fill(0, 116, 217);
+            fill(30, 144, 255);
         } else {
-            fill(133, 20, 75);
+            fill(255, 99, 71);
         }
         square(col * (width / size), row * (height / size), width / size);
     }
